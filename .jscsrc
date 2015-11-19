@@ -1,0 +1,6 @@
+{
+  "preset": "google",
+  "maxErrors": 9999,
+  "requireCamelCaseOrUpperCaseIdentifiers": false,
+  "maximumLineLength": false
+}
