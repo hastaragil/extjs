@@ -45,7 +45,7 @@ Ext.define('test.view.main.DataGridController', {
     var action = win.getAction();
     var project = Ext.create('test.model.Project', values);
 
-    console.log(store, action, project, ' store');
+    console.log(values, ' store');
     if (action == 'edit') {
       store.removeAt(win.getRecordIndex());
       store.insert(win.getRecordIndex(), project);

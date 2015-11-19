@@ -26,6 +26,15 @@ Ext.define('test.view.main.DataGrid', {
     {text: 'this_week_active', dataIndex: 'this_week_active'},
     {text: 'last_week_active', dataIndex: 'last_week_active'},
     {text: 'status', dataIndex: 'status'},
+    {
+      text: 'service_type',
+      dataIndex: 'service_types',
+      renderer: function(value) {
+        return value.map(function(value) {
+          return value.type;
+        }).join('<br>');
+      }
+    },
     {text: 'contract_value', dataIndex: 'contract_value'},
     {
       header: 'Action', width: 50,
