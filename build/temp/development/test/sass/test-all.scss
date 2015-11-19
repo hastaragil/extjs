@@ -1035,19 +1035,22 @@ $include-ext-view-view: dynamic(true);;
 $include-ext-window-messagebox: dynamic(true);;
 $include-ext-window-toast: dynamic(true);;
 $include-ext-window-window: dynamic(true);;
-$include-project: dynamic(true);;
-$include-servicetype: dynamic(true);;
 $include-test-application: dynamic(true);;
+$include-test-model-project: dynamic(true);;
+$include-test-model-servicetype: dynamic(true);;
 $include-test-store-personnel: dynamic(true);;
 $include-test-store-projects: dynamic(true);;
 $include-test-store-servicetypes: dynamic(true);;
+$include-test-view-form-projectsform: dynamic(true);;
 $include-test-view-main-chart: dynamic(true);;
 $include-test-view-main-chartlist: dynamic(true);;
 $include-test-view-main-datagrid: dynamic(true);;
+$include-test-view-main-datagridcontroller: dynamic(true);;
 $include-test-view-main-list: dynamic(true);;
 $include-test-view-main-main: dynamic(true);;
 $include-test-view-main-maincontroller: dynamic(true);;
 $include-test-view-main-mainmodel: dynamic(true);;
+$include-test-view-main-projectformcontroller: dynamic(true);;
 $output-paths: ("path": "../../classic/resources", "shared": "../../resources");
 
 /* ======================== ETC ======================== */

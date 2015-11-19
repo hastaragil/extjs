@@ -1,4 +1,4 @@
-Ext.define('ServiceType', {
+Ext.define('test.model.ServiceType', {
   extend: 'Ext.data.Model',
   fields: [{
     name: 'type'

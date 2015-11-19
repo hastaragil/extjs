@@ -1,6 +1,6 @@
 Ext.define('test.store.Projects', {
   extend: 'Ext.data.Store',
-  model: 'Project',
+  model: 'test.model.Project',
   storeId: 'Projects',
 
   fields: [
@@ -43,7 +43,7 @@ Ext.define('test.store.Projects', {
       },
       {
         id: 2,
-        name: 'Lisa',
+        name: 'Lisas',
         PM: 'lisa@simpsons.com',
         AM: '555-111-1224',
         segmen: 'asd',

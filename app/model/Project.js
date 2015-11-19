@@ -1,4 +1,4 @@
-Ext.define('Project', {
+Ext.define('test.model.Project', {
   extend: 'Ext.data.Model',
   fields: [
     'name',
