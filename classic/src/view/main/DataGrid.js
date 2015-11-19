@@ -9,7 +9,7 @@ Ext.define('test.view.main.DataGrid', {
   xtype: 'datagrid',
   autoScroll: true,
   tbar: [{
-    text: 'Add Book',
+    text: 'Add Project',
     action: 'add',
     iconCls: 'book-add'
   }],
@@ -54,10 +54,10 @@ Ext.define('test.view.main.DataGrid', {
                     var sm = grid.getSelectionModel();
                     var rs = sm.getSelection();
                     if (!rs.length) {
-                      Ext.Msg.alert('Info', 'No Book Selected');
+                      Ext.Msg.alert('Info', 'No Project Selected');
                       return;
                     }
-                    Ext.Msg.confirm('Remove Book',
+                    Ext.Msg.confirm('Remove Project',
                         'Are you sure you want to delete?',
                         function(button) {
                           if (button == 'yes') {

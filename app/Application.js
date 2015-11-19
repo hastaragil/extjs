@@ -7,7 +7,7 @@ Ext.define('test.Application', {
   extend: 'Ext.app.Application',
 
   name: 'test',
-  controllers: ['test.view.main.DataGridController'],
+  controllers: ['test.view.main.DataGridController','test.view.main.ChartController'],
   stores: [
     'Projects'
   ],

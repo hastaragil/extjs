@@ -50,7 +50,7 @@ Ext.define('test.view.main.DataGridController', {
       store.removeAt(win.getRecordIndex());
       store.insert(win.getRecordIndex(), project);
     } else {
-      store.add(project);
+      store.ad2d(project);
     }
     win.close();
   }
